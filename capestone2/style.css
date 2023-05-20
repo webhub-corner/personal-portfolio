@@ -1,0 +1,186 @@
+.header {
+    background-color:#F9FBE7 ; 
+    height:500px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    padding-left:25%
+
+}
+
+.container-1 h1{
+    font-family: 'Dancing Script', cursive;
+    color:#FEA1A1;
+    font-size:4rem;
+    margin-top:25%;
+    margin-bottom: 1rem;
+}
+
+.container-1 p {
+    color: #898121;
+    font-size: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 4rem;
+    text-align: center;
+    
+    
+}
+
+.resume-page {
+    background-color: white;
+    height:500px;
+}
+
+
+
+.container-2 img {
+   border-radius: 50%;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+}
+.container-2 p{
+    color: #898121;
+    font-size: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    text-align: center;
+    
+}
+.button {
+    background-color: #FEA1A1;
+    padding : 10px 10px 10px 10px;
+    border-radius: 10%;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 3rem;
+}
+.container-3 {
+    display:grid;
+    gap:4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:2fr ;
+   height:70vh;
+   padding-left: 2em;
+   margin:2rem 3rem 0 9rem
+
+}
+.card {
+    background-color: #F9FBE7;
+    height:300px;
+    width:200px;
+    border-radius: 10%;
+   
+}
+.container-3 .card {
+    text-align: center;
+}
+.container-3 img{
+    width:50px;
+    height:50px;
+    border-radius:20%;
+}
+.container-3 h2  {
+    color:#898121;
+}
+.container-3 h4 {
+    color:#ECCDB4;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lora', serif;
+}
+.container-3 ul{
+    color:#898121;
+   padding-left:50px;
+   
+}
+.container-3 li{
+    text-align: left;
+}
+.container-3 a {
+    text-decoration: none;
+}
+.container-4 h3  {
+    font-size:2.5rem;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lora', serif;
+    color:#D25380;
+    margin-bottom :10px;
+    
+}
+.contact-me {
+    background-color:#F9FBE7 ; 
+    height:170px;
+}
+.container-4 p {
+    color:#898121;
+    font-size: 1.5rem;
+    padding: 2% 20% 0 20%;
+    text-align:center;
+
+}
+
+.contact-me ul {
+    
+    padding-left:35%;
+    text-decoration: none;
+    margin-bottom:10px;
+    
+
+}
+.contact-me li {
+    
+    display:inline-flex;
+    justify-content:space-between;  
+    padding:50px 50px 20px 10px; 
+    font-size: 1.025rem;
+    color: #FEA1A1;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lora', serif;
+margin-bottom: 10px;
+text-decoration: none;
+}
+.contact-me p {
+    text-align: center;
+    color:#FEA1A1;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lora', serif;
+
+
+}
+
+@media  (max-width:700px ) {
+    .container1 {
+        
+        display:inline;
+        
+    }
+    
+    
+    
+    .container-3 {
+        display:block;
+        padding: left 25rem;;
+    margin-right:3rem;
+    margin-left:6rem;
+    margin-top:5rem;
+    height:50rem;
+    }
+    .container-4 {
+        margin-top:7rem;
+    }
+    h2 {
+        font-size-adjust: 2rem;
+    }
+    .contact-me li{ 
+        display:inline;
+        text-decoration: none;
+        
+        
+     
+    }
+    
+}

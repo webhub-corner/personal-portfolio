@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html  lang="en">
+    <head>
+        <title>SAndhya Kumar</title>
+        <meta  charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">   
+</head>
+    <body>
+        <!--------------------header---------------->
+        <section class="header">
+            <div class="container-1  box">
+                
+                <h1>Sandhya kumar</h1>
+                <p> Full Stack Web Developer  </p>
+            </div>
+
+        </section>
+         <!--------------------resume-page---------------->
+        <section class="resume-page">
+            <div class="container-2 box">
+
+                <img src="./images/myimage.jpg"  width="200" height="200" alt="my image">
+                <p> Web Developer with 5years of experience.Former employee  of TCS.</p>
+                <a  class='button'href="../cape1/index.html">Resume</a>
+            </div>
+
+        </section>
+    
+         <!--------------------additional-info---------------->
+        <section class="additional-info">
+            <div class="container-3 boox">
+                <div class="education card">
+                    <a href="../capestone2/education.html"><h2>Education</h2>
+                    <img src="../capestone2/images/edu.jpg">
+                    <h4>Sri venkateshwara University</h4>
+                    <ul>
+                    <li>Advancedapplication development </li>
+                    <li>Web Design</li>
+                </ul>
+                </div></a>
+                <a href="../capestone2/accomplishements.html"><div class="accomplishments card">
+                    <h2>Accomplishments</h2>
+                    <img src="../capestone2/images/acc.jpg">
+                    <h4>Awards</h4>
+                    <ul>
+                        <li>Star of the Month Award given by TCS</li>
+                        <li>coordinatedTech Event'19 in TCS </li>
+                    </ul>
+                    
+                </div></a>
+                <a href="../capestone2/certificates.html"><div class="certificates card">
+                    <h2>Certificates</h2>
+                    <img src="../capestone2/images/certificate.jpg">
+                    <h4>Udemy Certification</h4>
+                    <ul>
+                    <li> Fullstack developer certificate</li>
+                    <li>python Certificate</li>
+                </ul>
+                </div>
+            </div></a>
+
+        </section>
+        
+           <!--------------------contact me---------------->
+
+        <footer class="info">
+            <div class="container-4 box">
+            <h3>Get In Touch</h3>
+            <p>For  More Information and details feel free to reach me out</p>
+            <a  class='button' href="https://www.linkedin.com/in/sandhya-kumar-b80aa3242/">Contact Me</a>
+        </div>
+        <div class="contact-me">
+            
+        <ul>
+           <a href="https://www.linkedin.com/in/sandhya-kumar-b80aa3242/"> <li>Linked In</li></a>
+            <a href="https://www.instagram.com/zaraa_wow/?next=%2F"><li>InstaGram</li></a>
+            <a href="https://github.com/webhub-corner?tab=repositories"><li>GitHub</li></a>
+        </ul>
+        <P>© SandhyaKumar © 6132767012</P>
+    </div>
+        </footer>
+    </body>
+</html>
